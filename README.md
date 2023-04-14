@@ -45,14 +45,10 @@
 
 ## Programação Orientada a Objetos 2 - POO2 (2022/1)
 
-1.  Atividade 1 - Entidades
-2.  Atividade 2 - JDBC
-3.  Atividade 3 - Controllers
-4.  Atividade 4 - JPA
-5.  Atividade 5 - MVN
-6.  Atividade 6 - Angular
-7.  Aula - JDBC
-8.  Aula - JPA
+1.  Atividade 1 - Ordenação
+2.  Atividade 2 - Analise Matemática
+3.  Atividade 3 - Grafos
+4.  Atividade 4 - Ordenacao
 
 ## Programação para Internet - PI (2022/1)
 
