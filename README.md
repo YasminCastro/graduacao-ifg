@@ -18,8 +18,20 @@
 1.  Atividade 1 - Registros
 2.  Atividade 2 - Listas
 3.  Atividade 3 - Filas
-4.  Trabalho 1 - TAD
-5.  Trabalho 2 - Recursividade
+4.  Atividade 4 - Pilhas
+5.  Trabalho 1 - TAD
+6.  Trabalho 2 - Recursividade
+7.  Prova
+
+## Estrutura de Dados 2 - ED2 (2021/1)
+
+1.  Atividade 1 - Registros
+2.  Atividade 2 - Listas
+3.  Atividade 3 - Filas
+4.  Atividade 4 - Pilhas
+5.  Trabalho 1 - TAD
+6.  Trabalho 2 - Recursividade
+7.  Prova
 
 ## Programação Orientada a Objetos 1 - POO1 (2021/2)
 
