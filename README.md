@@ -56,6 +56,11 @@
 2.  Atividade 2 - CSS
 3.  Atividade 3 - JavaScript
 4.  Atividade 4 - JPA
+5.  Atividade 5 - Thymeleaf
+
+## Pesquisa Operacional - PO (2022/2)
+
+1.  Trabalho final
 
 ## Manutenção de Software - MS (2022/2)
 
