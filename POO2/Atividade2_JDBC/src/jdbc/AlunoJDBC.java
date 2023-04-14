@@ -67,19 +67,44 @@ public class AlunoJDBC {
 	
 	public void apagar(int id, Connection con) throws IOException, SQLException {
 		
-		sql = "DELETE FROM aluno WHERE id=" + id;
-		Statement st = con.createStatement();	
-		ResultSet rs = st.executeQuery(sql);
+		sql = "DELETE FROM aluno WHERE id = ?";
+		pst = con.prepareStatement(sql);
+		pst.setInt(1, id);
 		
-
-		rs.close();
-		st.close();
 		
-		System.out.println("Aluno removido com sucesso!");
+		
+		
+		if(pst.executeUpdate() >= 1) {
+			System.out.println("Aluno removido com sucesso!");
+		}
+		else {
+			System.out.println("Não foi encontrado aluno com id "+ id);
+		}
+		
+		
 		
 	}
 	
-	public void alterar(Aluno a, Connection con) {
+	public void alterar(Aluno a, Connection con) throws IOException, SQLException {		
+		
+		
+		
+		sql = "UPDATE aluno SET sexo = ?, nome = ?, dt_nasc = ? WHERE id = ? ";
+		pst = con.prepareStatement(sql);		
+		pst.setString(1, a.getSexo());
+		pst.setString(2, a.getNome());
+		pst.setDate(3, a.getDt_nasc());
+		pst.setInt(4, a.getId());
+		
+		if(pst.executeUpdate() >= 1) {
+			System.out.println("Aluno atualizado com sucesso!");
+		}
+		else {
+			System.out.println("Não foi encontrado aluno com id "+ a.getId());
+		}
+		
+		 
+		
 		
 	}
 }

@@ -61,26 +61,48 @@ public class Programa {
 					
 				}else if(opcao == 2) {
 					
-					
-					List<Aluno> lista = new ArrayList<>();
 					AlunoJDBC acao = new AlunoJDBC();
 					
-					lista = acao.listar(con);
 					
-					Iterator<Aluno> li = lista.iterator();
-					
-					while(li.hasNext()) {
-						System.out.println(li.next().toString());
-					}
-					
-					
-					
-				}else if(opcao == 4) {
-					
-					AlunoJDBC acao = new AlunoJDBC();
-					
-					acao.apagar(2, con);
+				System.out.println("LISTAR ALUNOS");
+				List<Aluno> lista = acao.listar(con);
 				
+				
+				for(Aluno a : lista) {
+					System.out.println("Aluno: " +  a.getId() + " " + a.getNome() + " " + a.getSexo() + " " + a.getDt_nasc());
+				}
+					
+					
+				}else if(opcao == 3) {
+					
+					AlunoJDBC acao = new AlunoJDBC();
+					
+					Aluno a = new Aluno();
+
+					System.out.print("\n*** Alterar Aluno ***\n\r");
+					System.out.print("Digite o id que deseja alterar: ");
+					a.setId(Integer.parseInt(console.nextLine()));					
+					System.out.print("Nome: ");
+					a.setNome(console.nextLine());
+					System.out.print("Sexo: ");
+					a.setSexo(console.nextLine());
+		
+					System.out.print("Data de nascimento (dd/MM/yyyy): ");
+					a.setDt_nasc( Date.valueOf( LocalDate.parse( console.nextLine(), formato) ) ) ;
+					
+					acao.alterar(a, con);
+				
+				}		
+				else if(opcao == 4) {
+					
+					AlunoJDBC acao = new AlunoJDBC();
+					
+					System.out.print("Digite o id que deseja excluir: ");
+					int id = Integer.parseInt(console.nextLine());		
+					
+					acao.apagar(id, con);
+					
+							
 				}
 				
 			} while (opcao != 5);

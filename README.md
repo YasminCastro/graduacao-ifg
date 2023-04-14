@@ -14,8 +14,9 @@
 
 1.  Atividade 1 - Entidades
 2.  Atividade 2 - JDBC
-3.  Atividade 3 - JDBC
-4.  Atividade 4 - Controllers
-5.  Atividade 5 - Pom.xml
-6.  Atividade 6 - MVN
-7.  Atividade 7 - Final project com Angular
+3.  Atividade 3 - Controllers
+4.  Atividade 4 - JPA
+5.  Atividade 5 - MVN
+6.  Atividade 6 - Angular
+7.  Aula - JDBC
+8.  Aula - JPA
