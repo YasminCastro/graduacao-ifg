@@ -1,5 +1,18 @@
 # Atividades da Graduação
 
+## Algoritmos e técnicas de programação - ATP (2020/1)
+
+1.  Atividade 1 - Lógica
+2.  Atividade 2 - Condições
+3.  Atividade 3 - Switch
+4.  Atividade 4 - While
+5.  Atividade 5 - Do While
+6.  Atividade 6 - For
+7.  Atividade 7 - Vetor
+8.  Atividade 8 - Matriz
+9.  Atividade 9 - Modularização
+10. Atividade 10 - Ponteiros
+
 ## Programação Orientada a Objetos - POO1 (2021/2)
 
 1.  Atividade 1 - Contrução de Classes
