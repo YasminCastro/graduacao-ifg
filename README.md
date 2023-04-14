@@ -20,3 +20,10 @@
 6.  Atividade 6 - Angular
 7.  Aula - JDBC
 8.  Aula - JPA
+
+## Programação para Internet - PI (2022/1)
+
+1.  Atividade 1 - HTML
+2.  Atividade 2 - CSS
+3.  Atividade 3 - JavaScript
+4.  Atividade 4 - JPA
