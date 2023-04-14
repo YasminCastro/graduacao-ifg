@@ -1,6 +1,6 @@
 # Atividades da Graduação
 
-## Programação Orientada a Objetos - POO1 (2022/01)
+## Programação Orientada a Objetos - POO1 (2021/2)
 
 1.  Atividade 1 - Contrução de Classes
 2.  Atividade 2 - System Scanner
@@ -10,7 +10,7 @@
 6.  Atividade 6 - Exceções
 7.  Atividade 7 - Classes
 
-## Programação Orientada a Objetos - POO2 (2022/02)
+## Programação Orientada a Objetos - POO2 (2022/1)
 
 1.  Atividade 1 - Entidades
 2.  Atividade 2 - JDBC
