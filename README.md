@@ -27,3 +27,7 @@
 2.  Atividade 2 - CSS
 3.  Atividade 3 - JavaScript
 4.  Atividade 4 - JPA
+
+## Manutenção de Software - MS (2022/2)
+
+1.  Trabalho final
