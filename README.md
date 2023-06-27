@@ -65,3 +65,7 @@
 ## Manutenção de Software - MS (2022/2)
 
 1.  Trabalho final
+
+## Sistemas Distribuidos - SD (2023/1)
+
+1.  Lista 3 - Comunicação Interprocessos

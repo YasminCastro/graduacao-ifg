@@ -1,0 +1,1 @@
+Modifique a aplicação anterior de forma que as mensagens enviadas sejam fornecidas pelo usuário na entrada padrão. O cliente então envia cada mensagem em um datagrama UDP ao servidor, que confirma o recebimento. Para cada mensagem enviada estabeleça um timeout para que o cliente informe ao usuário que a mensagem (ou sua confirmação) foi perdida. 
