@@ -1,5 +1,10 @@
 # Atividades da Graduação
 
+## Visão Geral
+
+Esse repositório contém todas atividades e projetos que desenvolvi durante minha graduação em Sistemas de Informação no IFG.
+
+
 ## Algoritmos e técnicas de programação - ATP (2020/1)
 
 1.  Atividade 1 - Lógica
